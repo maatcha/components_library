@@ -36,7 +36,7 @@ opacity: 0.6
 }
 
 .btn-treehouse {
-	padding: 9px 15px;
+	padding: 10px 15px;
 	color: #45D37F;
 	border: 2px solid;
 	border-radius: 5px;
@@ -52,5 +52,19 @@ opacity: 0.6
 	background-color: #45D37F;
 	border-color: #45D37F;
 	color: white;
+}
 
+.btn-mine {
+	background-color: #283373;
+	color: white;
+	padding: 10px 15px;
+	border-radius: 8px;
+	text-decoration: none;
+	font-weight: bold;
+	opacity: 0.6;
+	letter-spacing: 1.5;
+}
+
+.btn-mine:hover {
+	opacity: 1;
 }

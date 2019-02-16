@@ -2,7 +2,7 @@
 
 @import url("components/avatar.css");
 @import url("components/buttons.css");
-@import url("components/banner.css");
+@import url("components/banners.css");
 @import url("components/message.css");
 @import url("components/card.css");
 
@@ -24,10 +24,12 @@ h2 {
 
 .wrapper {
 	background: black;
+	padding-bottom: 20px;
 }
 
 .container {
-	width: 1200px;
+	width: 1230px;
+	padding: 10px 0px;
 	margin: 0 auto;
 	background-color: orange;
 }
