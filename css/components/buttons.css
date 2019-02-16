@@ -1,0 +1,36 @@
+.buttons {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 10px 0px;
+}
+
+.btn-twitter {
+	background-color: #A80000;
+	color: white;
+	border-radius: 4px
+	font-weight: bolder;
+	padding: 10px 15px;
+	text-decoration: none;
+	font-family: sans-serif;
+}
+
+.btn-twitter:hover {
+opacity: 0.6
+}
+
+.btn-medium {
+	background-color: transparent;
+	color: rgb(150, 150, 150);
+	border-radius: 50px;
+	font-weight: lighter;
+	padding: 10px 15px;
+	text-decoration: none;
+	border: 1px solid rgb(150, 150, 150);
+	opacity: 0.7;
+	font-family: sans-serif;
+}
+
+.btn-medium:hover {
+opacity: 1;
+}

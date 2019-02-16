@@ -1,0 +1,43 @@
+.message {
+	display: flex;
+	align-items: center;
+	background: rgb(150,150,150);
+	padding: 5px;
+	height: 14vh;
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+	margin: 0px 10px;
+}
+
+.message-body {
+	flex-grow: 1;
+	padding-left: 20px;
+}
+
+.message-avatar {
+	border-radius: 50%;
+	width: 60px;
+	margin: 10px;
+}
+
+.message-infos {
+	font-weight: bold;
+	margin: 10px;
+}
+
+.message-infos p {
+	margin: 0px;
+}
+
+.message-infos .date {
+	font-weight: lighter;
+	opacity: 0.8 ;
+}
+
+.message-status {
+	padding: 10px;
+}
+
+.message-status .accepted {
+	color: green;
+	font-weight: bolder;
+}

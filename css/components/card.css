@@ -1,0 +1,47 @@
+.card {
+	margin: auto;
+	width: 50%;
+	position: relative;
+	background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("../../images/vegas.jpeg");
+	background-size: cover;
+	background-position: top;
+	height: 285px;
+}
+
+.card p {
+	margin: 0px;
+}
+
+.card-category {
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	color: white;
+	font-weight: lighter;
+	font-size: 20px;
+	opacity: 0.6;
+}
+
+.card-infos {
+	position: absolute;
+	left: 10px;
+	bottom: 10px;
+	color: white;	
+}
+
+.card-infos h3 {
+	margin-bottom: 5px;
+	font-size: 23px;
+}
+
+.card-infos p {
+	font-size: 18px;
+}
+
+.card-avatar {
+	width: 40px;
+	border-radius: 50%;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
